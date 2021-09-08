@@ -1,5 +1,7 @@
 local plr = game.Players.LocalPlayer
-local gun = plr.Backpack.M9.GunStates
+local gun = plr.Backpack.AK-47.GunStates
+
+game.Workspace.Remote.ItemHandler:InvokeServer(Workspace.Prison_ITEMS.giver["AK-47"].ITEMPICKUP)
 
 a = require(gun)
 a.Damage = math.huge
