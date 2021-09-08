@@ -1,7 +1,8 @@
 local plr = game.Players.LocalPlayer
-local killgun = plr.Backpack.M9.GunStates
+local gun = plr.Backpack.M9.GunStates
 
-a = require(killgun)
-a.Damage = 1000
+a = require(gun)
+a.Damage = math.huge
 a.MaxAmmo = math.huge
 a.CurrentAmmo = math.huge
+print("This works")
